@@ -2,10 +2,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+
+
 import UseStateExample2  from "./UseStateExample2.jsx";
 function UseStateExample1() {
-  const [name, setName] = useState('Taylor');
-  const [age, setAge] = useState(42);
+  const [name, setName] = useState('Taylor');  // text variable
+  const [age, setAge] = useState(42);  // integer variable
 
   return (
     <>

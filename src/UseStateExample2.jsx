@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function UseStateExample2() {
-    const [liked, setLiked] = useState(true);
+    const [liked, setLiked] = useState(true);  // boolean variable
 
     function handleChangeLiked(e) {
         setLiked(e.target.checked);
